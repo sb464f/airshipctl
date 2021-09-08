@@ -10,3 +10,8 @@ spec:
       cluster_controlplane_image:
         url: http://10.23.24.101:80/images/control-plane.qcow2
         checksum: http://10.23.24.101:80/images/control-plane.qcow2.md5sum
+  images:
+    baremetal_operator:
+      ironic:
+        qcow_bundle:
+          image: sb464f/mariner-qcow-bundle:latest-ubuntu_bullseye
